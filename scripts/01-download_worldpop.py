@@ -55,4 +55,3 @@ if __name__ == "__main__":
 
     downloaded_zip_path = download_worldpop_zip(worldpop_url, worldpop_data_dir)
     unzip_worldpop_data(downloaded_zip_path, worldpop_data_dir)
-
