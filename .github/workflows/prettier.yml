@@ -1,0 +1,28 @@
+name: Prettier Autofix (Markdown)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.md'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '**/*.md'
+
+jobs:
+  autofix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Prettier Autofix
+        uses: autofix-ci/action@v1
+        with:
+          commit-message: 'chore: format Markdown files with Prettier'
+          run: npx prettier --write .
