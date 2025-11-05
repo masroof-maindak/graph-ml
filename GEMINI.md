@@ -51,12 +51,12 @@ A **Graph Neural Network (GNN)** is trained to classify each node (region) as:
 
 ## Implementation Notes
 
-- Frameworks: PyTorch Geometric or DGL for GNNs; OSMnx and GeoPandas for spatial
-  processing.
-- Evaluation metrics: accuracy, F1-score, and spatial cross-validation to avoid
-  leakage.
-- Optional extension: optimization layer suggesting new stop locations to
-  minimize transit deserts.
+- Environment Management: `uv` is used for dependency management and running scripts/notebooks.
+- Code Quality: GitHub Actions are set up for automated checks:
+  - Prettier for Markdown file formatting.
+  - Ruff for Python linting and formatting.
+- Data Storage: OSMnx processing outputs (e.g., network graphs, POIs) are stored in the `data/osmnx` directory.
+- Frameworks: OSMnx and GeoPandas for spatial processing.
 
 ## Summary
 
