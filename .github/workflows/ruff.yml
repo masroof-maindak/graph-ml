@@ -1,0 +1,25 @@
+name: Ruff
+
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+  push:
+    paths:
+      - '**/*.md'
+
+jobs:
+  ruff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.9.7"
+
+      - name: Run Ruff Check
+        run: uv run ruff check .
+
+      - name: Run Ruff Format Check
+        run: uv run ruff format --check .
