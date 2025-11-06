@@ -34,15 +34,11 @@ code .
   - [x] Population density - Worldpop
     - [ ] Isolate Lahore's data
   - [x] Lahore's PoIs
+  - [x] Lahore Graph Analysis
   - [ ] Lahore's public transport routes via CityLines
 - [ ] Graph representation
   - [x] Nodes represent intersection points or dead-end(End points)
   - [x] Edges represent streets or roads where drive is possible
-- [ ] Graph Analysis
-  - [x] Graph Stats
-      - [x] Total # of nodes = 145131
-      - [x] Total # of edges = 378090
-      - [x] Connected Components = 1      
 
 ## Acknowledgements
 
