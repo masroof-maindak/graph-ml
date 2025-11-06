@@ -6,11 +6,11 @@ Neural Networks**
 ## Problem Statement
 
 This project identifies areas in Lahore with high population density but poor
-access to public transport — “transit deserts.” Using population data
+access to public transport i.e “transit deserts.” Using population data
 (WorldPop), transit routes (CityLines), and the city’s road network
 (OpenStreetMap), we model Lahore as a spatial graph and apply a Graph Neural
 Network to classify underserved regions. The outcome is a data-driven map of
-transit accessibility gaps to guide future transport planning.`
+transit accessibility gaps to guide future transport planning.
 
 ## Setup
 
@@ -18,7 +18,7 @@ transit accessibility gaps to guide future transport planning.`
 # Install dependencies and synchronize environment
 uv sync
 
-# 2.  Download and prepare WorldPop population density data
+# 2. Download and prepare WorldPop population density data
 uv run scripts/01-download_worldpop.py
 
 # 3. Set up kernel
@@ -37,11 +37,8 @@ code .
   - [x] Population density - Worldpop
     - [ ] Isolate Lahore's data
   - [x] Lahore's PoIs
-  - [x] Lahore Graph Analysis
+  - [x] Lahore `osmnx` graph analysis
   - [ ] Lahore's public transport routes via CityLines
-- [ ] Graph representation
-  - [x] Nodes represent intersection points or dead-end(End points)
-  - [x] Edges represent streets or roads where drive is possible
 
 ## Acknowledgements
 
