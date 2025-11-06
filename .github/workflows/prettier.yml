@@ -3,10 +3,10 @@ name: Prettier
 on:
   push:
     paths:
-      - '**/*.md'
+      - "**/*.md"
   pull_request:
     paths:
-      - '**/*.md'
+      - "**/*.md"
 
 jobs:
   prettier:
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install Prettier
         run: npm install --save-dev prettier

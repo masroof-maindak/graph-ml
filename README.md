@@ -1,7 +1,16 @@
 # Naqsha-e-Safar
 
-This project aims to identify and classify public transit deserts in Lahore
-using Graph Neural Networks.
+**Identifying and Classifying Public Transit Deserts in Lahore Using Graph
+Neural Networks**
+
+## Problem Statement
+
+This project identifies areas in Lahore with high population density but poor
+access to public transport — “transit deserts.” Using population data
+(WorldPop), transit routes (CityLines), and the city’s road network
+(OpenStreetMap), we model Lahore as a spatial graph and apply a Graph Neural
+Network to classify underserved regions. The outcome is a data-driven map of
+transit accessibility gaps to guide future transport planning.`
 
 ## Setup
 
