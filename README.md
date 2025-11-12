@@ -33,12 +33,23 @@ code .
 
 ## TODOs
 
-- [ ] Data Downloading/Aggregation
+- [ ] ~~Data Downloading/Aggregation~~
   - [x] Population density - Worldpop
-    - [ ] Isolate Lahore's data
+    - [ ] ~~Isolate Lahore's data~~
   - [x] Lahore's PoIs
   - [x] Lahore `osmnx` graph analysis
-  - [ ] Lahore's public transport routes via CityLines
+  - [ ] ~~Lahore's public transport routes via CityLines~~
+
+---
+
+- [ ] Identify all the latitude-longitude sets that lie within Lahore's
+      boundaries
+- [ ] Get the coordinates for the orange line & metro's stops from the CityLines
+      API
+- [ ] Get as many Speedo stops as possible from miscellaneous data on the
+      internet
+- [ ] Get as many randomly distributed bus stops as possible by manually
+      checking Google Maps
 
 ## Acknowledgements
 
