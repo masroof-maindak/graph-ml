@@ -21,7 +21,7 @@ uv sync
 # 2. Set up kernel
 uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=naqsha-e-safar
 
-# 3. Run the './src/preprocessing.ipynb` Jupyter Notebook
+# 3. Run the './src/preprocessing.ipynb' Jupyter Notebook
 # Select the `.venv` interpreter and click 'Run All' inside the Notebook
 uv run --with jupyter jupyter lab
 # Or (w/ VS Code)
