@@ -43,14 +43,23 @@ code .
       boundaries
 - [x] Get the coordinates for the orange line & metro's stops from the CityLines
       API
-- [ ] Get as many Speedo stops as possible from miscellaneous data on the
-      internet
-- [ ] Get as many randomly distributed bus stops as possible by manually
-      checking Google Maps
-  - Search for 'bus station' 'bus stop', 'bus terminal', 'metro station'
+- [ ] ~~Get as many Speedo stops as possible from miscellaneous data on the
+      internet~~
+- [ ] ~~Get as many randomly distributed bus stops as possible by manually
+      checking Google Maps~~
+  - ~~Search for 'bus station' 'bus stop', 'bus terminal', 'metro station'~~
 
-## Acknowledgements
+---
 
-- [WorldPop (Population Density Data)](https://hub.worldpop.org/geodata/summary?id=48110)
-- [OpenStreetMap](https://www.openstreetmap.org/)
-- [CityLines](https://www.citylines.co/lahore)
+- [ ] See if Rehman's script (`speedodata` branch) can be developed further
+- [ ] Copy over Speedo routes manually, in the same 'style' as how CityLines'
+      `lahore_sections.geojson` is arrayed (dataset \#4)
+- [ ] Build a list of points by cross-referencing PMA's PDF (dataset \#5)
+
+## Datasets
+
+1. [WorldPop (Population Density Data)](https://hub.worldpop.org/geodata/summary?id=48110)
+2. [OpenStreetMap](https://www.openstreetmap.org/)
+3. [CityLines](https://www.citylines.co/lahore)
+4. [Punjab Mass Transit Authority](https://pma.punjab.gov.pk/system/files/LFRMap11.pdf)
+5. [Zameen - Speedo Bus Routes in Lahore](https://www.zameen.com/blog/speedo-bus-routes-lahore.html)
