@@ -51,10 +51,18 @@ code .
 
 ---
 
-- [ ] See if Rehman's script (`speedodata` branch) can be developed further
-- [ ] Copy over Speedo routes manually, in the same 'style' as how CityLines'
+- [x] See if Rehman's script (`speedodata` branch) can be developed further
+- [x] Copy over Speedo routes manually, in the same 'style' as how CityLines'
       `lahore_sections.geojson` is arrayed (dataset \#4)
-- [ ] Build a list of points by cross-referencing PMA's PDF (dataset \#5)
+- [ ] ~~Build a list of points by cross-referencing PMA's PDF (dataset \#5)~~
+
+---
+
+- [ ] Build graph by aggregating numerous datasets (one-hot encoding)
+  - [ ] Convert route b/w two consecutive stops to edges (perhaps w/ a higher weight?)
+  - [ ] Quantize nodes to the population density of their nearest lat-long from amongst the population density dataset
+- [ ] Community density problem?
+
 
 ## Datasets
 
